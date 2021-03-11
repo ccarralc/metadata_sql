@@ -42,5 +42,5 @@ CREATE PROCEDURE ACTUALIZAR_METADATOS_CAMPOS() BEGIN
         campo.idTabla = join_tablas_esquema.idTabla
         WHERE campo.nombreCampo IS NULL;
 
-END;
+END //
 DELIMITER ;
